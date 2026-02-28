@@ -1,3 +1,7 @@
+.stApp, .stAppToolbar {
+    background-color: rgb(151, 173, 192);
+}
 h1{
-    color: blue;
+    color: rgb(33, 33, 79);
+    font-family: cursive;
 }
