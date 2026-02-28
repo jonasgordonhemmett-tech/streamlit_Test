@@ -14,7 +14,7 @@ def isPrime(n, divisor=2):
         return False
     if divisor ** 2 > n:
         return True
-    if n % divisor:
+    if n % divisor == 0:
         return False
     return isPrime(n, divisor+1)
 
